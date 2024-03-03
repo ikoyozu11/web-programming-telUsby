@@ -4,4 +4,7 @@
  
 <p>Hello everyone👋, this is a repository for my Web Programming course in semester 6 at the Telkomuniversity National Campus Surabaya🧑‍💻.</p>
 <p>Don't forget to leave a mark by leaving a star⚡on this repository.</p>
-<p>Thank you and have a great day ❤</p>
+
+<hr>
+
+<h2 align="left">Thank you and have a great day ❤</h2>
