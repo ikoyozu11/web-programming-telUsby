@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Selector</title>
+<style>
+a {
+font-size: 50px;
+text-decoration: none;
+}
+a:hover {
+color: cadetblue;
+text-decoration: underline;
+}
+input {
+width: 300px;
+height: 30px;
+}
+input:focus {
+border: solid 2px orange;
+outline: none;
+}
+input:disabled {
+border: solid 2px gray;
+}
+table {
+border-spacing: 0;
+border-collapse: collapse;
+width: 100%;
+}
+th, td {
+border: solid 1px black;
+padding: 10px;
+}
+tr:first-child {
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+tr:last-child {
+font-weight: bold;
+text-transform: uppercase;
+text-align: right;
+color: red;
+}
+tr:nth-child(odd) {
+background-color: lightgrey
+}
+tr:nth-child(even) {
+background-color: white;
+}
+</style>
+</head>
+<body>
+  <a href="https://bif-sby.telkomuniversity.ac.id//">Informatika Telkom University Surabaya</a>
+  <p><input type="text"></p>
+  <p><input type="text" disabled value="Disabled"></p>
+  <table style="border: 1;">
+    <tr>
+      <td>Kolom 1</td>
+      <td>Kolom 2</td>
+      <td>Kolom 3</td>
+    </tr>
+    <tr>
+      <td>Baris 1</td>
+      <td>Baris 1</td>
+      <td>Baris 1</td>
+    </tr>
+    <tr>
+      <td>Baris 2</td>
+      <td>Baris 2</td>
+      <td>Baris 2</td>
+    </tr>
+    <tr>
+      <td>Baris 3</td>
+      <td>Baris 3</td>
+      <td>Baris 3</td>
+    </tr>
+    <tr>
+      <td>Baris 4</td>
+      <td>Baris 4</td>
+      <td>Baris 4</td>
+    </tr>
+    <tr>
+      <td>Baris 5</td>
+      <td>Baris 5</td>
+      <td>Baris 5</td>
+    </tr>
+  </table>
+</body>
+</html>

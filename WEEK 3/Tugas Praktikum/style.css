@@ -1,0 +1,43 @@
+nav {
+	background-color: rgb(228, 228, 228);
+	overflow: hidden;
+  width: auto;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-family: Arial;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  display: flex;  
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: rgb(33, 30, 30);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+	background-color: rgb(56, 56, 56);
+  border-bottom: 4px solid #06c7aa;
+}
+
+nav ul li a.active {
+	background-color: #06c7aa;
+}
+
+nav ul li a:not(.home):hover {
+  color: white;
+  background-color: rgb(56, 56, 56);
+}
