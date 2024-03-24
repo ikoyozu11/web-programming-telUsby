@@ -59,6 +59,11 @@ body {
   font-weight: bold;
 }
 
+.sidebar ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 @media screen and (max-width: 768px) {
   /*  MAKE SIDEBAR TO TOP AND RESPONSIVE */
   .sidebar {
@@ -148,6 +153,10 @@ body {
   background-color: rgb(62, 56, 87);
   border-radius: 50px;
   font-weight: bold;
+}
+
+.hero .hero-content .action-btn:hover {
+  background-color: rgb(54, 48, 77);
 }
 
 @media screen and (max-width: 768px) {
